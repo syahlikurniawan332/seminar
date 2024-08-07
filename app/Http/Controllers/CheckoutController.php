@@ -26,7 +26,7 @@ class CheckoutController extends Controller
         Config::$is3ds = true;
 
         $quantity = $request->input('quantity', 1);
-        $pricePerTicket = 15000;
+        $pricePerTicket = 150000;
         $grossAmount = $quantity * $pricePerTicket;
 
         // Data transaksi
